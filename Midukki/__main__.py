@@ -63,7 +63,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                     ]
                 ]    
                 pr0fess0r_99 = markup()(pr0fess0r_99)
-                await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=pr0fess0r_99)                
+                await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=roiderff)                
                 return
             except FloodWait as x:
                 mrk, file_id, grp_id = message.text.split("_-_")
@@ -80,7 +80,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                     ]
                 ]    
                 pr0fess0r_99 = markup()(pr0fess0r_99)
-                await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=pr0fess0r_99)                
+                await message.reply_photo(photo=choice(FORCES), caption=f"""Hello {message.from_user.mention}. \nYou Have <a href="{invite_link.invite_link}">Not Subscribed</a> 𝚃𝙾 <a href="{invite_link.invite_link}">my updates channel</a>.so you do not get the files on here""", reply_markup=roiderff)                
                 return    
             except UserIsBlocked:
                 mrk, file_id, grp_id = message.text.split("_-_")
